@@ -1,4 +1,4 @@
-from project.vehicle import Vehicle
+from Gym.vehicle import Vehicle
 
 class Car(Vehicle):
     def drive(self):

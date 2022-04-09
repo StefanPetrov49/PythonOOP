@@ -1,0 +1,9 @@
+from Gym.product import Product
+
+
+class Food(Product):
+    QUANTITY = 15
+
+    def __init__(self, name: str):
+        super().__init__(name, self.__class__.QUANTITY)
+
